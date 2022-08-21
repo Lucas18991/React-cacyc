@@ -1,4 +1,4 @@
-const footer = () =>{
+const footers = () =>{
 return(
     <footer>
         	<footer class="text-center text-lg-start bg-light text-muted">
@@ -103,4 +103,4 @@ return(
 
 }
 
-export default footer;
+export default footers;

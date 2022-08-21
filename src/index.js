@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import footer from "./components/footer/footer.jsx";
+import footers from "./components/footer/footer.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -11,8 +11,6 @@ root.render(
     <React.StrictMode>
       <App />
     </React.StrictMode>
-    <footer />
-    footer
   </>
 );
 
