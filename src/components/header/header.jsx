@@ -1,5 +1,8 @@
 
-const header = () =>{
+import Cw from "./cw"
+
+
+const Header = () =>{
     return(
 
 <header id="head">
@@ -40,6 +43,8 @@ const header = () =>{
 					  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"> </input>
 					  <button class="btn btn-outline-success" type="submit">Buscar</button>
 					</form>
+
+                    <Cw />
 				  </div>
 				</div>
 			  </nav>
@@ -49,4 +54,4 @@ const header = () =>{
     
     }
 
-    export default header;
+    export default Header;
