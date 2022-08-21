@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import footer from "./components/footer/footers";
 
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <footer />
     </div>
   );
 }
-
 export default App;
